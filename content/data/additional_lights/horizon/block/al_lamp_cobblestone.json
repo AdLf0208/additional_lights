@@ -1,0 +1,86 @@
+{
+  "template": "minecraft:end_rod",
+  "properties": {
+    "hardness": 0.0,
+    "explosion_resistance": 0.0,
+    "light": 15,
+    "requires_tool": false,
+    "map_color": 0,
+    "sounds": "minecraft:cobblestone"
+  },
+  "shapes": {
+    "property": "facing",
+    "values": {
+      "down": [
+        [
+          0.3125,
+          0.875,
+          0.3125,
+          0.6875,
+          1.0,
+          0.6875
+        ]
+      ],
+      "up": [
+        [
+          0.3125,
+          0.0,
+          0.3125,
+          0.6875,
+          0.125,
+          0.6875
+        ]
+      ],
+      "north": [
+        [
+          0.375,
+          0.4375,
+          0.75,
+          0.625,
+          0.8125,
+          1.0
+        ]
+      ],
+      "south": [
+        [
+          0.375,
+          0.4375,
+          0.0,
+          0.625,
+          0.8125,
+          0.25
+        ]
+      ],
+      "west": [
+        [
+          0.75,
+          0.4375,
+          0.375,
+          1.0,
+          0.8125,
+          0.625
+        ]
+      ],
+      "east": [
+        [
+          0.0,
+          0.4375,
+          0.375,
+          0.25,
+          0.8125,
+          0.625
+        ]
+      ]
+    }
+  },
+  "state_properties": {
+    "waterlogged": {
+      "type": "boolean"
+    }
+  },
+  "default_state": {
+    "facing": "down",
+    "waterlogged": "false"
+  },
+  "item": true
+}

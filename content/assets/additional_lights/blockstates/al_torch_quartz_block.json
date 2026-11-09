@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "firetype=normal": {
+      "model": "additional_lights:block/al_torch/al_torch_quartz_block"
+    },
+    "firetype=soul": {
+      "model": "additional_lights:block/al_torch/al_soul_torch_quartz_block"
+    },
+    "firetype=light": {
+      "model": "additional_lights:block/al_torch/al_light_torch_quartz_block"
+    }
+  }
+}

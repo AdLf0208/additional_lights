@@ -1,0 +1,6 @@
+{
+  "parent": "additional_lights:block/al_torch/template_al_torch_smooth_light",
+  "textures": {
+    "main": "block/polished_blackstone"
+  }
+}

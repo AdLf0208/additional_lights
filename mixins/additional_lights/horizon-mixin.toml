@@ -1,0 +1,17 @@
+[mod]
+id = "additional_lights"
+version = "3.1.4"
+priority = 100
+
+[compatibility]
+horizon_revision = "1d63e0a5a37a7a708eb0b32b49bf0dfeb28ed8a9"
+
+# The pure lamp/torch registry (standalone crate lib, injected as
+# `crate::game::additional_lights`). The 80 blocks are content-only, declared
+# in ../content, so this bundle has no injection. The 10 tests pin the
+# upstream materials, light levels and state-space sizes the generator uses.
+[[module]]
+id = "runtime"
+file = "crates/horizon-client/src/game.rs"
+name = "additional_lights"
+source = "runtime.rs"

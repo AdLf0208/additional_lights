@@ -1,0 +1,6 @@
+{
+  "parent": "additional_lights:block/al_lamp/template_al_lamp_quartz",
+  "textures": {
+    "main": "block/quartz_block_side"
+  }
+}

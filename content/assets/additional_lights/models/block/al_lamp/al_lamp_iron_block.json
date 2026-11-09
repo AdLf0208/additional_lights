@@ -1,0 +1,6 @@
+{
+  "parent": "additional_lights:block/al_lamp/template_al_lamp_smooth",
+  "textures": {
+    "main": "block/iron_block"
+  }
+}

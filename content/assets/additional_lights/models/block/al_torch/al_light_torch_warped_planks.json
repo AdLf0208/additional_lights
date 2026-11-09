@@ -1,0 +1,6 @@
+{
+  "parent": "additional_lights:block/al_torch/template_al_torch_planks_light",
+  "textures": {
+    "main": "block/warped_planks"
+  }
+}

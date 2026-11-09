@@ -1,0 +1,6 @@
+{
+  "parent": "additional_lights:block/al_torch/template_al_wall_torch_glass_light",
+  "textures": {
+    "main": "additional_lights:block/glass"
+  }
+}

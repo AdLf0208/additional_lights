@@ -1,0 +1,12 @@
+# Port-owned content mod for Additional Lights 3.1.4 (mgen256/AdditionalLights,
+# branch 26.3, MIT): the 24 lamps, 28 floor torches and 28 wall torches. The
+# textures, models, recipes, advancements and lang are the upstream mod's own
+# MIT assets; see ../LICENSE and ../notes.md.
+id = "additional_lights"
+name = "Additional Lights"
+version = "3.1.4"
+description = "Lamps and torches made from vanilla materials"
+authors = ["mgen256"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

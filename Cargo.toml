@@ -1,0 +1,16 @@
+[package]
+# Content port of: Additional Lights 3.1.4 (mgen256/AdditionalLights, branch
+# 26.3, MIT). The lamp/torch registry is a clean-room Rust rewrite; the
+# textures, models, recipes and lang are the upstream mod's own MIT assets and
+# stay local until the maintainer approves publishing (ARCHITECTURE.md §8).
+name = "horizon-additional-lights"
+version = "3.1.4"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Additional Lights' lamp and torch blocks for Horizon"
+publish = false
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/additional_lights/runtime.rs"

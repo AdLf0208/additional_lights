@@ -1,0 +1,34 @@
+{
+  "template": "minecraft:torch",
+  "properties": {
+    "hardness": 0.0,
+    "explosion_resistance": 0.0,
+    "light": 14,
+    "requires_tool": false,
+    "map_color": 0,
+    "sounds": "minecraft:cobblestone"
+  },
+  "state_properties": {
+    "firetype": {
+      "type": "enum",
+      "values": [
+        "normal",
+        "soul",
+        "light"
+      ]
+    },
+    "previous_firetype": {
+      "type": "enum",
+      "values": [
+        "normal",
+        "soul",
+        "light"
+      ]
+    }
+  },
+  "default_state": {
+    "firetype": "normal",
+    "previous_firetype": "normal"
+  },
+  "item": true
+}
